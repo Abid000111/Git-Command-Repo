@@ -1,0 +1,19 @@
+Terminal command:
+to move in the subdirectory of the current directory: cd (directory name)
+to exit from current directory: cd ..
+to view all the system files of current directory: ls
+to view all the system and hidden files of current directory: 1)ls -Force 2) Get-Childitem -Force
+to create a new directory: mkdir (name)
+
+Git command:
+to divert a directory into git repository: git init
+to clone: git clone (URL)
+to check git status: git status
+to track: 1) git add (file name) 2) git add .
+to commit: git commit -m "(add message)"
+to check branch: git branch
+to rename branch: git branch -M main
+to push: git push origin main
+to create a push shortcut for future: git push -u origin main (after doing this in future only "git push" is enough)
+to remote: git remote add origin (link)
+to verify remote: git remote -v
